@@ -10,7 +10,6 @@ import io.cucumber.testng.CucumberOptions;
 
 
 @CucumberOptions(
-		
         plugin = {"json:target/positive/cucumber.json", 
         		  "pretty", "html:target/positive/cucumber.html","com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         features = "src/test/resources/features",
